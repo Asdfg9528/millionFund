@@ -24,7 +24,7 @@ jobs:
         uses: android-actions/setup-android@v3
         
       - name: Install dependencies
-        run: npm install
+        run: npm instal1 --legacy-peer-deps
         
       - name: Build Web
         run: npm run build
